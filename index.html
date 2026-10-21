@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Khám phá những kiến thức nền tảng về công nghệ web, lập trình C và Java trong một trang học tập ngắn gọn.">
+    <meta name="theme-color" content="#101322">
+    <title>CodeCraft — Khám phá thế giới lập trình</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Điều hướng chính">
+            <a class="brand" href="#home" aria-label="CodeCraft - Trang chủ">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>codecraft<span class="brand-period">.</span></span>
+            </a>
+
+            <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Mở menu">
+            <label class="menu-button" for="menu-toggle" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </label>
+
+            <div class="nav-content">
+                <ul class="nav-list">
+                    <li><a href="#web">Công nghệ web</a></li>
+                    <li><a href="#program">Lập trình C</a></li>
+                    <li><a href="#java">Java</a></li>
+                </ul>
+                <a class="nav-cta" href="#explore">Bắt đầu học <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+            <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+            <div class="hero-content container">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> LỘ TRÌNH CHO NGƯỜI MỚI</p>
+                    <h1>Ý tưởng hay,<br>viết thành <span class="gradient-text">mã.</span></h1>
+                    <p class="hero-description">Bắt đầu hành trình lập trình với những khái niệm cốt lõi, được giải thích rõ ràng và dễ áp dụng.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#explore">Khám phá chủ đề <span aria-hidden="true">→</span></a>
+                        <a class="text-link" href="#web">Tìm hiểu thêm <span aria-hidden="true">↓</span></a>
+                    </div>
+                    <div class="hero-note"><span class="note-dot"></span> Kiến thức nền tảng · Học theo nhịp của bạn</div>
+                </div>
+
+                <div class="code-window" aria-label="Minh họa đoạn mã HTML">
+                    <div class="window-bar">
+                        <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+                        <span>hello-world.html</span>
+                        <span class="window-language">HTML</span>
+                    </div>
+                    <div class="code-content" aria-hidden="true">
+                        <div><span class="line-number">01</span><span class="code-purple">&lt;section</span> <span class="code-blue">class</span>=<span class="code-green">"your-idea"</span><span class="code-purple">&gt;</span></div>
+                        <div><span class="line-number">02</span>  <span class="code-purple">&lt;h1&gt;</span></div>
+                        <div><span class="line-number">03</span>    Xin chào, thế giới!</div>
+                        <div><span class="line-number">04</span>  <span class="code-purple">&lt;/h1&gt;</span></div>
+                        <div><span class="line-number">05</span>  <span class="code-purple">&lt;p&gt;</span>Bắt đầu từ đây.<span class="code-purple">&lt;/p&gt;</span></div>
+                        <div><span class="line-number">06</span><span class="code-purple">&lt;/section&gt;</span></div>
+                        <div class="code-cursor"><span class="line-number">07</span><span></span></div>
+                    </div>
+                    <div class="code-footer"><span><span class="status-dot"></span> Sẵn sàng biên dịch</span><span>UTF-8</span></div>
+                    <div class="floating-badge"><span class="badge-icon">&lt;/&gt;</span><span><strong>Code</strong><small>tương lai của bạn</small></span></div>
+                </div>
+            </div>
+            <a class="scroll-cue" href="#explore"><span></span> CUỘN ĐỂ KHÁM PHÁ</a>
+        </section>
+
+        <section class="topics section-padding" id="explore">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> NỀN TẢNG VỮNG CHẮC</p>
+                        <h2>Mỗi dòng code<br>mở ra một <span class="accent-text">cánh cửa.</span></h2>
+                    </div>
+                    <p class="heading-aside">Khám phá các công nghệ đã và đang tạo nên thế giới số — từ trang web đầu tiên đến những hệ thống mạnh mẽ.</p>
+                </div>
+
+                <div class="topic-grid">
+                    <article class="topic-card topic-web" id="web">
+                        <div class="card-topline"><span class="topic-number">01</span><span class="topic-icon icon-html" aria-hidden="true">&lt;/&gt;</span></div>
+                        <p class="card-label">NỀN TẢNG INTERNET</p>
+                        <h3>Công nghệ web</h3>
+                        <p>HTML tạo nên cấu trúc, CSS mang đến phong cách, còn JavaScript thổi sức sống vào trang web. Cùng tìm hiểu cách các mảnh ghép kết hợp với nhau.</p>
+                        <a class="card-link" href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content" target="_blank" rel="noopener noreferrer">Khám phá HTML & CSS <span aria-hidden="true">↗</span></a>
+                        <div class="card-decoration decoration-brackets" aria-hidden="true">&lt;/&gt;</div>
+                    </article>
+
+                    <article class="topic-card topic-c" id="program">
+                        <div class="card-topline"><span class="topic-number">02</span><span class="topic-icon icon-c" aria-hidden="true">C</span></div>
+                        <p class="card-label">TƯ DUY HỆ THỐNG</p>
+                        <h3>Lập trình C</h3>
+                        <p>Ngôn ngữ nhỏ gọn nhưng đầy sức mạnh. C giúp bạn hiểu sâu về bộ nhớ, thuật toán và cách phần mềm tương tác với phần cứng.</p>
+                        <a class="card-link" href="https://en.cppreference.com/w/c/language" target="_blank" rel="noopener noreferrer">Đi sâu vào C <span aria-hidden="true">↗</span></a>
+                        <div class="card-decoration decoration-c" aria-hidden="true">C</div>
+                    </article>
+
+                    <article class="topic-card topic-java" id="java">
+                        <div class="card-topline"><span class="topic-number">03</span><span class="topic-icon icon-java" aria-hidden="true">J</span></div>
+                        <p class="card-label">LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG</p>
+                        <h3>Java</h3>
+                        <p>Viết một lần, chạy mọi nơi. Làm quen với lập trình hướng đối tượng và nền tảng đang vận hành hàng triệu ứng dụng.</p>
+                        <a class="card-link" href="https://dev.java/learn/" target="_blank" rel="noopener noreferrer">Bắt đầu với Java <span aria-hidden="true">↗</span></a>
+                        <div class="card-decoration decoration-java" aria-hidden="true">J</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="learning-section">
+            <div class="container learning-layout">
+                <div class="learning-visual" aria-hidden="true">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                    <div class="learning-core"><span>&lt;/&gt;</span></div>
+                    <span class="orbit-tag tag-html">HTML</span>
+                    <span class="orbit-tag tag-css">CSS</span>
+                    <span class="orbit-tag tag-js">JS</span>
+                    <span class="orbit-tag tag-code">CODE</span>
+                </div>
+                <div class="learning-copy">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> HỌC BẰNG CÁCH LÀM</p>
+                    <h2>Không chỉ đọc.<br><span class="gradient-text">Hãy bắt tay xây dựng.</span></h2>
+                    <p>Mọi lập trình viên đều bắt đầu từ một trang trắng. Nắm vững nền tảng, thử nghiệm ý tưởng và biến kiến thức thành sản phẩm của riêng bạn.</p>
+                    <a class="button button-dark" href="#web">Bắt đầu với HTML <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <div class="container quote-inner">
+                <span class="quote-mark" aria-hidden="true">“</span>
+                <blockquote>Mỗi chuyên gia từng là người mới bắt đầu.</blockquote>
+                <p>Tiến thêm một dòng code mỗi ngày.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <a class="brand footer-brand" href="#home">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>codecraft<span class="brand-period">.</span></span>
+            </a>
+            <p>Học nền tảng. Xây điều có ích.</p>
+            <span class="copyright">© 2026 CodeCraft. Made for curious minds.</span>
+        </div>
+    </footer>
+</body>
+</html>
